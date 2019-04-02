@@ -68,3 +68,8 @@ def volume_of_sphere(x)
 
   return (3.14*(x**3)*(4.0/3.0)).round(2)
 end
+
+
+def fahr_to_celsius(x)
+  return (x-32)*(5.0/9.0)
+end
