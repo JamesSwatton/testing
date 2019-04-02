@@ -29,3 +29,7 @@ end
 def length_of_string(string)
   return string.length()
 end
+
+def join_string(one_string, two_string)
+  return one_string + two_string
+end
