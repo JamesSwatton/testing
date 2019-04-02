@@ -33,3 +33,7 @@ end
 def join_string(one_string, two_string)
   return one_string + two_string
 end
+
+def add_string_as_number(first_number, second_number)
+  return first_number.to_i + second_number.to_i
+end
